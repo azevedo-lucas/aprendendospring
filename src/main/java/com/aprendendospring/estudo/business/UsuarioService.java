@@ -13,6 +13,8 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor // USADO PARA OS CAMPOS INICIALIZADOS COM FINAL
 public class UsuarioService {
 
+
+
     private final UsuarioRepository usuarioRepository; // @RequeredArgsConstructor
     private final PasswordEncoder passwordEncoder;
 
